@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "http://AgutuSam.github.io/client",
+  "homepage": "https://AgutuSam.github.io/nivleclient",
   "Author":"AgutuSam",
   "version": "0.1.0",
   "private": true,
@@ -36,7 +36,7 @@
       "extensions": "js,jsx"
     }
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://nivlecserver.osc-fr1.scalingo.io",
   "eslintConfig": {
     "extends": "react-app"
   },
