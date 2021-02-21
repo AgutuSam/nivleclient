@@ -1,6 +1,7 @@
 {
   "name": "client",
   "homepage": "http://AgutuSam.github.io/client",
+  "Author":"AgutuSam",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
