@@ -1,7 +1,7 @@
 {
   "name": "client",
   "homepage": "https://AgutuSam.github.io/nivleclient",
-  "Author":"AgutuSam",
+  "Author": "AgutuSam",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,8 +36,7 @@
       "extensions": "js,jsx"
     }
   },
-  "proxy": "https://nivlecserver.osc-fr1.scalingo.io/",
-   "eslintConfig": {
+  "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": [
@@ -47,6 +46,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "http-proxy-middleware": "^1.0.6"
   }
 }
