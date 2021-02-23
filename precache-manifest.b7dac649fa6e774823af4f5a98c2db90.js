@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ec19e08767d392dcb7a2",
+    "revision": "2b6d5d55d33de35123a2",
     "url": "/nivleclient/static/css/main.ab5b812f.chunk.css"
   },
   {
-    "revision": "ec19e08767d392dcb7a2",
-    "url": "/nivleclient/static/js/main.ec19e087.chunk.js"
+    "revision": "2b6d5d55d33de35123a2",
+    "url": "/nivleclient/static/js/main.2b6d5d55.chunk.js"
   },
   {
     "revision": "895bbd4d51dd360125b6",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/nivleclient/static/js/runtime~main.5b44cf9b.js"
   },
   {
-    "revision": "4c50dd7ab429d13e0c1dfb23c19548f1",
+    "revision": "563755fd8f49db53b98070c1e80647de",
     "url": "/nivleclient/index.html"
   }
 ];
