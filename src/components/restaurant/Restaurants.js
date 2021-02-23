@@ -10,7 +10,7 @@ class Restaurants extends Component {
   async componentDidMount() {
     try {
       this.setState({ loading: true });
-      const response = await axios("/api/restaurants");
+      const response = await axios("https://nivlecserver.osc-fr1.scalingo.io/api/restaurants");
       this.setState({ restaurants: response.data, loading: false });
     } catch (e) {
       console.error(e);

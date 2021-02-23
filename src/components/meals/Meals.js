@@ -12,7 +12,7 @@ class Meals extends Component {
   async componentDidMount() {
     try {
       this.setState({ loading: true });
-      const response = await axios(`/api/restaurants/${this.restaurantId}`);
+      const response = await axios(`https://nivlecserver.osc-fr1.scalingo.io/api/restaurants/${this.restaurantId}`);
       this.setState({ meals: response.data._meals, loading: false });
     } catch (e) {
       console.error(e);
@@ -56,7 +56,7 @@ class Meals extends Component {
     });
     this.setState({ submitting: true });
     try {
-      await axios.post("/api/orders", payload);
+      await axios.post("https://nivlecserver.osc-fr1.scalingo.io/api/orders", payload);
       const { push } = this.props.history;
       push("/orders");
     } catch (e) {

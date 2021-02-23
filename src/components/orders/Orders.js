@@ -11,7 +11,7 @@ class Orders extends Component {
   async componentDidMount() {
     try {
       this.setState({ loading: true });
-      const response = await axios("/api/orders");
+      const response = await axios("https://nivlecserver.osc-fr1.scalingo.io/api/orders");
       this.setState({ orders: response.data, loading: false });
     } catch (e) {
       console.error(e);
@@ -21,7 +21,7 @@ class Orders extends Component {
 
   onOrderStatusChange = async (orderId, status, index) => {
     try {
-      await axios.put(`/api/orders/${orderId}`, { status });
+      await axios.put(`https://nivlecserver.osc-fr1.scalingo.io/api/orders/${orderId}`, { status });
       const orders = cloneDeep(this.state.orders);
       orders[index].status = status;
       this.setState({ orders });

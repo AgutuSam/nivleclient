@@ -12,7 +12,7 @@ class CreateRestaurant extends Component {
 
   async componentDidMount() {
     this.setState({ loading: true });
-    const response = await axios("/api/users");
+    const response = await axios("https://nivlecserver.osc-fr1.scalingo.io/api/users");
     this.setState({ userInfo: response.data, loading: false });
   }
 
@@ -50,7 +50,7 @@ class CreateRestaurant extends Component {
     this.setState({ loading: true });
     try {
       await axios.post(
-        "/api/restaurants",
+        "https://nivlecserver.osc-fr1.scalingo.io/api/restaurants",
         pick(this.state, ["name", "type", "description", "_meals"])
       );
       alert(`Restaurant ${this.state.name} successfully created.`);
