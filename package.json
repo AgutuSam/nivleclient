@@ -36,8 +36,8 @@
       "extensions": "js,jsx"
     }
   },
-  "proxy": "https://nivlecserver.osc-fr1.scalingo.io",
-  "eslintConfig": {
+  "proxy": "https://nivlecserver.osc-fr1.scalingo.io/",
+   "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": [

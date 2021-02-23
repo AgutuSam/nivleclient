@@ -13,13 +13,14 @@ class NavBar extends Component {
   };
   render() {
     const { user } = this.props.auth;
+    
     return (
       <React.Fragment>
         <div className="navbar-fixed">
           <nav className="z-depth-0">
             <div className="nav-wrapper">
               <Link to="/" className="brand-logo">
-                <i className="material-icons">code</i>Tomato
+                <i className="material-icons">home</i>Dely Verie
               </Link>
               <div
                 data-target="mobile-demo"

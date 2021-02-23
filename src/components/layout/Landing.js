@@ -9,7 +9,7 @@ class Landing extends Component {
           <div className="col s12 center-align">
             <h4>
               Order food from{" "}
-              <span style={{ fontFamily: "monospace" }}>Tomato</span>
+              <span style={{ fontFamily: "monospace" }}>Dely Verie</span>
             </h4>
             <br />
             <div className="col s6">
@@ -37,6 +37,7 @@ class Landing extends Component {
               >
                 Log In
               </Link>
+              
             </div>
           </div>
         </div>
