@@ -1,13 +1,13 @@
 {
   "main.css": "/nivleclient/static/css/main.ab5b812f.chunk.css",
-  "main.js": "/nivleclient/static/js/main.0bc5f2a4.chunk.js",
-  "main.js.map": "/nivleclient/static/js/main.0bc5f2a4.chunk.js.map",
+  "main.js": "/nivleclient/static/js/main.ec19e087.chunk.js",
+  "main.js.map": "/nivleclient/static/js/main.ec19e087.chunk.js.map",
   "static/js/1.895bbd4d.chunk.js": "/nivleclient/static/js/1.895bbd4d.chunk.js",
   "static/js/1.895bbd4d.chunk.js.map": "/nivleclient/static/js/1.895bbd4d.chunk.js.map",
   "runtime~main.js": "/nivleclient/static/js/runtime~main.5b44cf9b.js",
   "runtime~main.js.map": "/nivleclient/static/js/runtime~main.5b44cf9b.js.map",
   "static/css/main.ab5b812f.chunk.css.map": "/nivleclient/static/css/main.ab5b812f.chunk.css.map",
   "index.html": "/nivleclient/index.html",
-  "precache-manifest.2da614ffe8ceab19ba756154958a583e.js": "/nivleclient/precache-manifest.2da614ffe8ceab19ba756154958a583e.js",
+  "precache-manifest.ec8ea027acfd5a21d9259d7b3e3ea00e.js": "/nivleclient/precache-manifest.ec8ea027acfd5a21d9259d7b3e3ea00e.js",
   "service-worker.js": "/nivleclient/service-worker.js"
 }
