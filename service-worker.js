@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nivleclient/precache-manifest.b7dac649fa6e774823af4f5a98c2db90.js"
+  "/nivleclient/precache-manifest.bf9874d98cc2fc5681bd7a49999e6f5b.js"
 );
 
 workbox.clientsClaim();
